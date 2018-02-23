@@ -1,0 +1,272 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#container{
+    background: white;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 970px;
+}
+
+.globe, .title{
+    display: inline-block;
+}
+
+.globe{
+    margin: auto;
+    width: 10%;
+    margin-bottom: 0px;
+    position: relative;
+    top: 32px;
+}
+
+.title{
+    font-size: 47px;
+    font-weight: 200;
+    color: #474747;
+    margin-bottom: 0px;
+}
+
+.bluelet{
+    color: #22659e; 
+}
+.bluebar{
+    background: linear-gradient(#296aa0, #5283ad, #296aa0);
+    font-weight: 200;
+    color: white;
+    font-size: 31px;
+    padding: 18px;
+    margin: 0px;
+}
+.content{
+    background: linear-gradient(#e5e5e5, #ffffff, #ffffff, #ffffff);
+}
+
+.side_column, .main{
+    display: inline-block;
+}
+
+.side_column{
+    margin: auto;
+    width: 20%;
+}
+
+.side{
+    padding-bottom: 15px;
+    margin-bottom:24px;
+}
+
+.question{
+    font-weight: 750;
+    font-size: 15px;
+    margin-bottom: 5px;
+    padding-top: 10px;
+}
+
+.red{
+    color: red;
+}
+
+.answer{
+    font-weight: bold;
+    font-size: 13px;
+    margin-top: 0px;
+}
+
+.dojo_ad{
+    background-image: url("ad_background.png");
+    padding-bottom: 20px;
+    margin-top: 25px;
+}
+
+.reinvent{
+    color: white;
+    font-size: 23px;
+    text-align: center;
+    padding-top: 20px;
+    font-weight: 450;
+    margin-bottom: 10px;
+}
+
+.ninja{
+    margin: auto;
+    width: 50%;
+    margin-left: 44px;
+}
+
+.learnmore{
+    color: white;
+    width: 83%;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    background: linear-gradient(#79d0df, #25c6df,#79d0df);
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px black;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 5px;
+    margin-top: 5px;
+
+}
+
+.video{
+    color: white;
+    background: linear-gradient(#5c93c0, #2769a1);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 550;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px grey;
+    width: 100%;
+    margin-bottom: 3px;
+}
+
+.resources{
+    color: white;
+    background: linear-gradient(#ebab51, #ed7304);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 550;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px grey;
+    margin-bottom: 27px;
+}
+
+.main{
+    margin: auto;
+    width: 78%;
+    vertical-align: top;
+}
+
+.contact_bar{
+    margin-left: 10px;
+    border-bottom: .05px solid #ababab;
+    
+
+}
+
+.home, .dns, .phone, .contactinfo{
+    display: inline-block;
+}
+
+.home{
+    margin: auto;
+    width: 2.5%;
+    vertical-align: top;
+    margin-top: 10px;
+}
+
+.dns{
+    margin-top: 14px;
+    vertical-align: top;
+    color: #22659e;
+    font-weight: 600;
+}
+
+.phone{
+    margin: auto;
+    width: 6%;
+    margin-left: 445px;
+}
+.contactinfo{
+    padding-top: 5px;
+    padding-bottom: 10px;
+    text-align: right;
+}
+
+.hr{
+    font-size: 11px;
+    color: #474747;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.phonenum{
+    color: #00c0df;
+    font-weight: bolder;
+    font-size: 26px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.info{
+    padding-left: 14px;
+}
+.subtitles{
+    color: #22659e;
+    font-weight: 800; 
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.text{
+    margin-top: 0px;
+    font-weight: 550;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+ul, ol{
+    font-weight: 550;
+    margin-top: 0px;
+    font-size: 15px;
+}
+
+ul li{
+    padding: 3px;
+}
+
+ol li{
+    padding: 3px;
+}
+.lightbluelet{
+    color: #0097ae;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.client_server{
+    margin: auto;
+    width: 38%;
+    margin-left: 225px;
+}
+.big3{
+    margin-left: 23px;
+    margin-right: 10px;
+    padding: 10px;
+    border-top: 5px solid #0085e0;
+    border-left: 5px solid #0085e0;
+    border-right: 5px solid #0085e0;
+}
+.bigthreepic, .bigthreetext{
+    display: inline-block;
+}
+
+.bigthreepic{
+    margin: auto;
+    width: 17%;
+}
+
+.bigthreetext{
+    margin: auto;
+    width: 82%;
+}
+
+.textb{
+    font-size: 14px;
+    font-weight: 550;
+}
+
+
+a:link{
+    text-decoration: none;
+    color: #0097ae;
+}
